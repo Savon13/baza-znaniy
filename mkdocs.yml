@@ -1,5 +1,6 @@
 site_name: База знаний группы
 site_url: https://savon13.github.io/baza-znaniy/
+docs_dir: .
 theme:
   name: material
   language: ru
