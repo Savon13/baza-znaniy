@@ -1,7 +1,35 @@
+site_name: База знаний группы
+site_url: https://savon13.github.io/baza-znaniy/
+
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
 nav:
   - Главная: index.md
   - Лекции:
     - Обзор: Лекции/README.md
+    - АП: Лекции/АП/README.md
+    - Адвокатура: Лекции/Адвокатура/README.md
+    - БЖД: Лекции/БЖД/README.md
+    - ГП: Лекции/ГП/README.md
+    - Инклюзивность: Лекции/Инклюзивность/README.md
+    - КП: Лекции/КП/README.md
+    - Красноречие: Лекции/Красноречие/README.md
+    - ОФП: Лекции/ОФП/README.md
+    - ПСО: Лекции/ПСО/README.md
+    - Правоохр_органы: Лекции/Правоохр_органы/README.md
+    - СоцПред: Лекции/СоцПред/README.md
+    - УП: Лекции/УП/README.md
   - Домашние задания:
     - Обзор: "Домашние задания/README.md"
     - АП: "Домашние задания/АП/README.md"
